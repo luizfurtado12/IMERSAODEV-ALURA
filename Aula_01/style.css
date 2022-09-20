@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(-45deg, #f72020, #fd6602, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+  #saida {
+    color: field;
+    align-items: center;
+    text-align: center;
+    text-rendering: auto;
+    margin: auto;
+    padding: auto;
+    border: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    width:fit-content;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+
+  .subtitle {
+    color: #ffffff;
+    display: inline-block;    
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    justify-content: space-between;
+    width: 40px;
+    top: 10px;
+    display: flex;
+    right: 10px;
+  }
+  .bimestres {
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    position: relative;
+
+  }
+  .notas {
+    border-radius: 15px;
+    color: field;
+    width:110px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);    
+  }
+  #buton {
+    margin-top: 12px;
+    font-size: 25px;
+    color: field;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 1px 2px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  .resultados{
+    text-rendering: auto;
+    color: field;
+    display: inline-block;
+    background: transparent;
+    margin: 0em;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 1px 2px;
+    border-radius: 15px;
+    width: 100px;
+  }

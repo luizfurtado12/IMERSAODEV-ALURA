@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calcular-Media</title>
+</head>
+  <body>
+    <div class="d-flex flex-column justify-content-center w-100 h-100"></div>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <form action="">
+
+        <div id="primeiro-bimestre" class="bimestres">
+          <h3 class="subtitle"> 1° bimestre: </h2>
+          <input type="number" id="primeira_nota_1" class="notas" value="0" onkeyup="return nina(event);">
+          <input type="number" id="segunda_nota_1" class="notas" value="0" onkeyup="return nina(event);">
+          <h3 class="resultados" id="media1"> média</h2>
+        </div> <br>
+
+        <div id="primeiro-bimestre" class="bimestres">
+          <h3 class="subtitle"> 2° bimestre: </h2>
+          <input type="number" id="primeira_nota_2" class="notas" value="0" onkeyup="return nina(event);">
+          <input type="number" id="segunda_nota_2" class="notas" value="0" onkeyup="return nina(event);">
+          <h3 class="resultados" id="media2">média</h2>
+        </div> <br>
+        
+        <div id="primeiro-bimestre" class="bimestres">
+          <h3 class="subtitle"> 3° bimestre: </h2>
+          <input type="number" id="primeira_nota_3" class="notas" value="0" onkeyup="return nina(event);">
+          <input type="number" id="segunda_nota_3" class="notas" value="0" onkeyup="return nina(event);">
+          <h3 class="resultados" id="media3">média</h2>
+        </div> <br>
+        
+        <div id="primeiro-bimestre" class="bimestres">
+          <h3 class="subtitle"> 4° bimestre: </h2>
+          <input type="number" id="primeira_nota_4" class="notas" value="0" onkeyup="return nina(event);">
+          <input type="number" id="segunda_nota_4" class="notas" value="0" onkeyup="return nina(event);">
+          <h3 class="resultados" id="media4">média</h2>
+        </div> 
+      
+      </form>
+      <button id="buton" type="submit" onclick="aprovar()"> Calcular média final</button> <br>
+      <h3 id="saida"> Resultado final: </h3>
+    </div>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>

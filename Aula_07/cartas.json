@@ -1,0 +1,63 @@
+[
+    {
+        "nome":"Goku",
+        "img": "https://i.pinimg.com/474x/15/ab/9e/15ab9efe55c9d8ddaf809ec28bb94170.jpg",
+        "atributos": {
+            "ataque": 89,
+            "defesa": 66,
+            "mp": 75
+    }},
+    {
+        "nome": "Vegetta",
+        "img": "https://a-static.mlcdn.com.br/1500x1500/quadro-c-moldura-dragon-ball-vegeta-super-saiyajin-fj-utilitys/fjutilitys/11622177024/5994513a025b8007e752759911a875e1.jpg",
+    "atributos": {
+        "ataque": 80,
+        "defesa": 79,
+        "mp": 75
+    }},
+    {
+        "nome": "Gohan",
+        "img": "https://i.pinimg.com/736x/55/c2/23/55c2236e44e2f305d9e238b61305afb8.jpg",
+        "atributos": {
+            "ataque":74,
+            "defesa": 70,
+            "mp": 80
+        }
+    },
+    {
+        "nome": "Picollos",
+        "img": "https://i.pinimg.com/564x/b6/78/32/b678324f5032aa04fd2eb5e3e32ec4a6.jpg",
+        "atributos": {
+            "ataque": 70,
+            "defesa": 80,
+            "mp": 59
+        }
+    },
+    {
+        "nome": "Majin buu",
+        "img": "https://dragonball.guru/wp-content/uploads/2021/03/majin-buu-happy-824x490.jpg",
+        "atributos": {
+            "ataque": 88,
+            "defesa":85,
+           " mp":87
+        }
+    },
+    {
+        "nome": "Freeza",
+        "img": "https://i.pinimg.com/736x/ee/ba/85/eeba858e55bff304809e19f75ce1785a.jpg",
+        "atributos": {
+            "ataque": 87,
+            "defesa": 84,
+           " mp":79
+        }
+    },
+    {
+        "nome": "Broly",
+        "img": "https://i.pinimg.com/originals/f1/8b/3d/f18b3d020cd505c2ff5577ac31089a76.jpg",
+        "atributos": {
+            "ataque": 88,
+            "defesa": 77,
+            "mp": 88
+        }
+    }
+]
