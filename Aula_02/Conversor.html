@@ -18,26 +18,32 @@
     </p>
     <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
     <div class="campo">
-
-      <label for="moeda">Insira o valor:</label><br>
-      <div class="campo-pesquisa" id="pesquisa">
-        <input type="number" id="valor" size="2"  onkeyup="return nina(event)"/><br>
+      <!-- <label for="moeda">Insira o valor:</label> -->
+      <input type="number" id="valor" size="2"  onkeyup="return nina(event)"/>
         <div class="campo-moeda" id="selecionar-tipo">
-          <dir class="espaco"></dir>
-          <select name="" class="selecione-moedas">
+          <!-- <label for="moeda">Selecioane a moeda:</label> -->
+          <select name="" class="selecione-moedas" id="moeda-1">
             <option value="">Real</option>
             <option value="">Dolar</option>
             <option value="">Euro</option>
             <option value="">Libra Esterlina</option>
             <option value="">Ienes</option>
           </select>
-          <span class="spam">Moedas </span>
+          <span class="spam">➡️</span>
+          <!-- <p>simbolos: ➡️↗️⏩🔁↔️💱</p> -->
+          <select name="" class="selecione-moedas" id="moeda-2">
+            <option value="">Real</option>
+            <option value="">Dolar</option>
+            <option value="">Euro</option>
+            <option value="">Libra Esterlina</option>
+            <option value="">Ienes</option>
+          </select>
         </div>
-        <br>
-      </div>
-      <button id="search" type="submit" onclick="Converter()" onsubmit="">Converter</button>
+    </div>
+    <div class="resultado">
+        <button id="search" type="submit" onclick="Converter()" onsubmit="">Converter</button>
         <h2 id="valorConvertido"></h2>
-      </div>
+    </div>
     </div>
   </div>
   <a href="https://alura.com.br/" target="_blank">
