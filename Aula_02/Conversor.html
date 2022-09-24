@@ -14,30 +14,21 @@
       Conversor de moedas
     </h1>
     <p class="page-subtitle">
-      Descubra os valores em dolar U$
+      Descubra a cotação do real em relação as moedas
     </p>
     <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
     <div class="campo">
       <!-- <label for="moeda">Insira o valor:</label> -->
       <input type="number" id="valor" size="2"  onkeyup="return nina(event)"/>
         <div class="campo-moeda" id="selecionar-tipo">
-          <!-- <label for="moeda">Selecioane a moeda:</label> -->
-          <select name="" class="selecione-moedas" id="moeda-1">
-            <option value="">Real</option>
-            <option value="">Dolar</option>
-            <option value="">Euro</option>
-            <option value="">Libra Esterlina</option>
-            <option value="">Ienes</option>
-          </select>
           <span class="spam">➡️</span>
           <!-- <p>simbolos: ➡️↗️⏩🔁↔️💱</p> -->
-          <select name="" class="selecione-moedas" id="moeda-2">
-            <option value="">Real</option>
-            <option value="">Dolar</option>
-            <option value="">Euro</option>
-            <option value="">Libra Esterlina</option>
-            <option value="">Ienes</option>
-          </select>
+          <select name="" class="selecione-moedas" id="moeda-1">
+            <option value="none">Selecione uma moeda</option>
+            <option value="dolar">Dolar</option>
+            <option value="euro">Euro</option>
+            <option value="libra_esterlina">Libra Esterlina</option>
+            <option value="ienes">Ienes</option>          </select>
         </div>
     </div>
     <div class="resultado">
